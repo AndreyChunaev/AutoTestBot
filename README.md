@@ -22,3 +22,12 @@ python eb_robot.py
 - `BROWSER_DOWNLOADS_DIR` — папка, где браузер сохраняет файлы
 - Excel outputs — сохранённые Excel-файлы
 - TXT Outputs — распакованные TXT из ZIP
+- Correct Outputs — корректные TXT файлы
+- Incorrect outputs — некорректные TXT файлы
+
+## Запуск контроля документов
+
+python controls.py
+
+(предварительно: `pip install -r requirements.txt` или активировать venv и установить зависимости)
+
